@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Rajat%20Shriram&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Infrastructure%20%7C%20API%20Gateway%20%26%20Systems%20%7C%20DevOps%20%26%20Observability&descSize=16&descAlignY=55"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Rajat%20Shriram&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Infrastructure%20%7C%20API%20Gateway%20and%20Systems%20%7C%20DevOps%20and%20Observability&descSize=16&descAlignY=55"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B61FF&center=true&vCenter=true&width=800&lines=Building+SentinelStack+API+Gateway+%F0%9F%8C%8D;Passionate+about+System+Design+%26+Backend+%F0%9F%9A%80;DevOps+%7C+Observability+%7C+C%2B%2B+%F0%9F%A4%96;Let's+build+highly+available+systems!)](https://git.io/typing-svg)
 
@@ -31,8 +31,7 @@ class Rajat:
 
 
 ## 🌐 Socials:
-<!-- Make sure to update these links with your actual URLs! -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shriramrajat) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shriramrajat) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/shriramrajat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rajatshriram7@gmail.com) 
 
 
 
