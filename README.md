@@ -98,8 +98,6 @@ class Rajat:
 
 ---
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=shriramrajat&theme=radical&margin-w=15&margin-h=15)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
