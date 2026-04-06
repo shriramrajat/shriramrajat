@@ -1,15 +1,16 @@
-## About Me
+<div align="center">
 
-Backend-focused engineering student working with C++ and FastAPI.
-I build RESTful APIs with proper validation, error handling, and database persistence,
-while strengthening problem-solving skills through DSA.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Akhil%20Karampuri&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20UI%20/UX%20Designer&descSize=16&descAlignY=55"/>
 
-## Current Focus
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7B61FF&center=true&vCenter=true&width=600&lines=Building+Realtime+Call+Translation+%F0%9F%8C%8D;Passionate+about+AI+%26+NLP+%F0%9F%A4%96;Full-Stack+%7C+ML+%7C+Open+Source+%F0%9F%9A%80;Let's+build+something+amazing+together!)](https://git.io/typing-svg)
 
-- Data Structures & Algorithms using C++
-- Backend development with FastAPI
-- PostgreSQL and SQLAlchemy
+</div>
+<br/>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="600" />
+
+</p><br><br><br>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shriram_rajat) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shriramrajat) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/shriramrajat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rajatshriram7@gmail.com) 
