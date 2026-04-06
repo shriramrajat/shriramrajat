@@ -75,15 +75,25 @@ class Rajat:
 
 </div>
 
-# 📊 GitHub Stats:
-![](https://streak-stats.demolab.com/?user=shriramrajat&theme=radical)
-
-## 📈 Contribution Graph
+# 📊 GitHub Stats
 
 <div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shriramrajat&theme=midnight_purple" width="100%"/>
+</div>
 
-[![Rajat's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=shriramrajat&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shriramrajat&theme=midnight_purple" height="160em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shriramrajat&theme=midnight_purple" height="160em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shriramrajat&theme=midnight_purple" height="160em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shriramrajat&theme=midnight_purple&utcOffset=5.5" height="160em"/>
+</div>
 
+<div align="center">
+<img src="https://streak-stats.demolab.com/?user=shriramrajat&theme=midnight-purple&hide_border=true&background=0a0a0f&stroke=4f6ef7&ring=a78bfa&fire=f59e0b&currStreakLabel=4f6ef7" width="100%"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shriramrajat&bg_color=0a0a0f&color=4f6ef7&line=a78bfa&point=f59e0b&area=true&hide_border=true" width="100%"/>
 </div>
 
 ---
