@@ -35,9 +35,7 @@ An API Gateway designed to handle authentication, rate limiting, and structured 
   * Built structured JSON logging for high-performance log parsing and audit trails.
   * Containerized workflow with **Docker** and **Docker Compose** for seamless orchestration.
 
-<p align="center">
-  <img src="sentinelstack-demo.gif" width="700" alt="SentinelStack Demo" />
-</p>
+
 
 ---
 
