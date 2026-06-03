@@ -104,7 +104,7 @@ The gateway monitors ingress request latency, token bucket depletion status, and
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shriramrajat&theme=midnight_purple" width="100%"/>
       </td>
       <td align="center" width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shriramrajat&theme=midnight_purple" width="100%"/>
+        <img src="https://streak-stats.demolab.com/?user=shriramrajat&theme=midnight-purple&hide_border=true&background=0a0a0f&stroke=4f6ef7&ring=a78bfa&fire=f59e0b&currStreakLabel=4f6ef7" width="100%"/>
       </td>
     </tr>
   </table>
