@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="100%" height="100%">
+  <!-- Definition of gradients and filters -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050409"/>
+      <stop offset="50%" stop-color="#0a0815"/>
+      <stop offset="100%" stop-color="#030206"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'Fira Code', 'Courier New', Courier, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .text-title { font-weight: 700; fill: #ffffff; }
+    .text-muted { fill: #64748b; }
+    .text-accent { fill: #a78bfa; }
+    .text-green { fill: #34d399; }
+    .text-blue { fill: #60a5fa; }
+    .text-amber { fill: #fbbf24; }
+    .text-red { fill: #f87171; }
+    .card { fill: #0d0b18; stroke: #221a3c; stroke-width: 1.5; }
+    .card-header { font-size: 11px; font-weight: 700; fill: #818cf8; letter-spacing: 1px; }
+  </style>
+
+  <!-- Main Background -->
+  <rect width="900" height="440" rx="16" fill="url(#bgGrad)" stroke="#22183d" stroke-width="2"/>
+
+  <!-- Window Header -->
+  <g transform="translate(0, 0)">
+    <!-- Window controls -->
+    <circle cx="25" cy="22" r="6" fill="#f87171"/>
+    <circle cx="45" cy="22" r="6" fill="#fbbf24"/>
+    <circle cx="65" cy="22" r="6" fill="#34d399"/>
+    
+    <text x="95" y="27" class="font-mono text-muted" font-size="12">shriramrajat@infrastructure-node-01:~</text>
+    
+    <!-- Status Indicator -->
+    <rect x="730" y="12" width="145" height="20" rx="10" fill="#0f2b23" stroke="#059669" stroke-width="1"/>
+    <circle cx="745" cy="22" r="4" fill="#34d399">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="758" y="26" class="font-mono text-green" font-size="10" font-weight="700">SYSOP: OPERATIONAL</text>
+    
+    <line x1="0" y1="40" x2="900" y2="40" stroke="#22183d" stroke-width="1.5"/>
+  </g>
+
+  <!-- LEFT COLUMN: SYSTEM TELEMETRY -->
+  <g transform="translate(20, 60)">
+    <!-- Info Card -->
+    <rect width="400" height="150" rx="10" class="card"/>
+    <text x="20" y="25" class="font-sans card-header">SYSTEM PROPERTIES</text>
+    
+    <text x="20" y="55" class="font-sans text-title" font-size="22">Rajat Shriram</text>
+    <text x="20" y="75" class="font-sans text-muted" font-size="13">Systems &amp; Backend Infrastructure Engineer</text>
+    
+    <text x="20" y="105" class="font-mono text-muted" font-size="12">Location:</text>
+    <text x="100" y="105" class="font-mono text-title" font-size="12">Pune, IN (IST)</text>
+    
+    <text x="20" y="125" class="font-mono text-muted" font-size="12">Primary IP:</text>
+    <text x="100" y="125" class="font-mono text-blue" font-size="12">127.0.0.1 (Localhost)</text>
+
+    <!-- Stack Card -->
+    <g transform="translate(0, 170)">
+      <rect width="400" height="180" rx="10" class="card"/>
+      <text x="20" y="25" class="font-sans card-header">CORE ENGINE TELEMETRY</text>
+      
+      <!-- C++ -->
+      <text x="20" y="55" class="font-mono text-title" font-size="12">C / C++ (Systems)</text>
+      <rect x="180" y="46" width="150" height="8" rx="4" fill="#1e1835"/>
+      <rect x="180" y="46" width="127" height="8" rx="4" fill="url(#barGrad)"/>
+      <text x="345" y="54" class="font-mono text-accent" font-size="11" font-weight="700">85%</text>
+
+      <!-- Go -->
+      <text x="20" y="85" class="font-mono text-title" font-size="12">Go (Distributed)</text>
+      <rect x="180" y="76" width="150" height="8" rx="4" fill="#1e1835"/>
+      <rect x="180" y="76" width="112" height="8" rx="4" fill="url(#barGrad)"/>
+      <text x="345" y="84" class="font-mono text-accent" font-size="11" font-weight="700">75%</text>
+
+      <!-- Python -->
+      <text x="20" y="115" class="font-mono text-title" font-size="12">Python (API &amp; Tools)</text>
+      <rect x="180" y="106" width="150" height="8" rx="4" fill="#1e1835"/>
+      <rect x="180" y="106" width="135" height="8" rx="4" fill="url(#barGrad)"/>
+      <text x="345" y="114" class="font-mono text-accent" font-size="11" font-weight="700">90%</text>
+
+      <!-- Infrastructure -->
+      <text x="20" y="145" class="font-mono text-title" font-size="12">DevOps/Linux/Infra</text>
+      <rect x="180" y="136" width="150" height="8" rx="4" fill="#1e1835"/>
+      <rect x="180" y="136" width="120" height="8" rx="4" fill="url(#barGrad)"/>
+      <text x="345" y="144" class="font-mono text-accent" font-size="11" font-weight="700">80%</text>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: OBSERVED LOGS -->
+  <g transform="translate(440, 60)">
+    <rect width="440" height="350" rx="10" class="card"/>
+    <text x="20" y="25" class="font-sans card-header">OBSERVABILITY CONSOLE LOGS</text>
+    
+    <!-- Console screen inner container -->
+    <rect x="15" y="40" width="410" height="295" rx="6" fill="#050409" stroke="#1c1630" stroke-width="1"/>
+    
+    <!-- Logs simulation -->
+    <g transform="translate(25, 55)" class="font-mono" font-size="10.5">
+      <!-- Line 1 -->
+      <text x="0" y="15" class="text-muted">2026-06-03 20:09:42</text>
+      <text x="140" y="15" class="text-green">[INFO]</text>
+      <text x="190" y="15" fill="#e2e8f0">Bootstrapping profile nodes...</text>
+
+      <!-- Line 2 -->
+      <text x="0" y="40" class="text-muted">2026-06-03 20:09:42</text>
+      <text x="140" y="40" class="text-green">[INFO]</text>
+      <text x="190" y="40" fill="#e2e8f0">Init Redis Rate-Limiter stack</text>
+
+      <!-- Line 3 -->
+      <text x="0" y="65" class="text-muted">2026-06-03 20:09:43</text>
+      <text x="140" y="65" class="text-green">[INFO]</text>
+      <text x="190" y="65" fill="#e2e8f0">Gateway SentinelStack online</text>
+
+      <!-- Line 4 -->
+      <text x="0" y="90" class="text-muted">2026-06-03 20:09:43</text>
+      <text x="140" y="90" class="text-blue">[DEBUG]</text>
+      <text x="190" y="90" fill="#cbd5e1">Memory footprint: 1.42 GB</text>
+
+      <!-- Line 5 -->
+      <text x="0" y="115" class="text-muted">2026-06-03 20:09:44</text>
+      <text x="140" y="115" class="text-amber">[WARN]</text>
+      <text x="190" y="115" class="text-amber">Concurrency limit threshold &gt; 80%</text>
+
+      <!-- Line 6 -->
+      <text x="0" y="140" class="text-muted">2026-06-03 20:09:44</text>
+      <text x="140" y="140" class="text-green">[INFO]</text>
+      <text x="190" y="140" fill="#e2e8f0">Hot-plugging eBPF tracepoints</text>
+
+      <!-- Line 7 -->
+      <text x="0" y="165" class="text-muted">2026-06-03 20:09:45</text>
+      <text x="140" y="165" class="text-green">[INFO]</text>
+      <text x="190" y="165" fill="#e2e8f0">Dumping Postgres metrics to Grafana</text>
+
+      <!-- Line 8 -->
+      <text x="0" y="190" class="text-muted">2026-06-03 20:09:45</text>
+      <text x="140" y="190" class="text-green">[INFO]</text>
+      <text x="190" y="190" fill="#e2e8f0">Raft consensus: State set to LEADER</text>
+
+      <!-- Line 9 -->
+      <text x="0" y="215" class="text-muted">2026-06-03 20:09:46</text>
+      <text x="140" y="215" class="text-green">[INFO]</text>
+      <text x="190" y="215" fill="#e2e8f0">Syncing database replica blocks</text>
+
+      <!-- Line 10 -->
+      <text x="0" y="240" class="text-muted">2026-06-03 20:09:46</text>
+      <text x="140" y="240" class="text-accent">[READY]</text>
+      <text x="190" y="240" class="text-accent" font-weight="700">Listening on port 443... 🚀</text>
+      
+      <!-- Blinking Cursor -->
+      <rect x="360" y="230" width="8" height="13" fill="#a78bfa">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+
+  <!-- BOTTOM STATUS LINE -->
+  <line x1="0" y1="420" x2="900" y2="420" stroke="#22183d" stroke-width="1"/>
+  <text x="25" y="433" class="font-mono text-muted" font-size="10">NODE_ID: b616cf6a-ba10-43a7-98aa-5abc84a68e21</text>
+  <text x="440" y="433" class="font-mono text-muted" font-size="10">BANDWIDTH: 10 Gbps</text>
+  <text x="720" y="433" class="font-mono text-muted" font-size="10">PACKETS SECURELY ROUTED via SSH</text>
+</svg>
