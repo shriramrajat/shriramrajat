@@ -96,13 +96,15 @@ The gateway monitors ingress request latency, token bucket depletion status, and
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shriramrajat&theme=midnight_purple" width="100%"/>
       </td>
       <td align="center" width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shriramrajat&theme=midnight_purple" width="100%"/>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shriramrajat&theme=midnight_purple" width="100%"/>
       </td>
     </tr>
     <tr>
-      <td align="center" colspan="2" width="100%">
-        <!-- Replace username in URL below if you have a WakaTime account set up -->
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=shriramrajat&layout=compact&theme=midnight-purple" width="100%"/>
+      <td align="center" width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shriramrajat&theme=midnight_purple" width="100%"/>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shriramrajat&theme=midnight_purple" width="100%"/>
       </td>
     </tr>
   </table>
