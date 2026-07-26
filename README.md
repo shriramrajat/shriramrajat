@@ -71,9 +71,7 @@ observability:
 ### 🛰️ Telemetry & Observability Demo
 The gateway monitors ingress request latency, token bucket depletion status, and proxies client credentials.
 
-<p align="center">
-  <img src="sentinelstack-demo.gif" width="750" alt="SentinelStack Latency & Load Telemetry" />
-</p>
+
 
 ---
 
